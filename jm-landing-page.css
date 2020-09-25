@@ -1,10 +1,14 @@
 body {
-  background-color: lightblue;
+  background-color: white;
+}
+h1 {
+  color: red;
+  text-align: center;
 }
 
-h1 {
-  color: white;
-  text-align: center;
+h2 {
+    color: red; 
+    text-align: center; 
 }
 
 p {
@@ -12,3 +16,23 @@ p {
   font-size: 20px;
   text-align: center;
 }
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+#contents {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+}
+#contents td, #contents th {
+    border: 5px solid red;
+    padding: 15px; 
+
+}#contents th {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+  }
